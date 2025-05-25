@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "title": "Black Essential Cotton Oversized tee",
+        "discount": "-30%",
+        "price": 1189,
+        "originalPrice": 1699,
+        "rating": 4,
+        "imgDefault": "mens-classic-tee-black-back-64f0cfbe90c80.png",
+        "imgHover": "mens-classic-tee-black-back-64f0cfbe919a6.png",
+        "description": "High-quality oversized tee made from organic cotton."
+    },
+      {   
+        "id": 2,
+        "title": "Black Essential Cotton Oversized tee",
+        "discount": "-30%",
+        "price": 1189,
+        "originalPrice": 1699,
+        "rating": 4,
+        "imgDefault": "mens-classic-tee-black-front-64f0ccbf8a0c7.png",
+        "imgHover": "mens-classic-tee-black-front-2-64f0ccbf8a8ed.png",
+        "description": "High-quality oversized tee made from organic cotton."
+    },
+      {
+        "id": 3,
+        "title": "Black Essential Cotton Oversized tee",
+        "discount": "-30%",
+        "price": 1189,
+        "originalPrice": 1699,
+        "rating": 4,
+        "imgDefault": "mens-classic-tee-black-front-64f0ebb6137fb.png",
+        "imgHover": "mens-classic-tee-black-front-2-64f0ebb614237.png",
+        "description": "High-quality oversized tee made from organic cotton."
+    },
+     {
+        "id": 4,
+       "title": "Beige Essential Cotton Oversized tee",
+        "discount": "-30%",
+        "price": 1189,
+        "originalPrice": 1699,
+        "rating": 5,
+        "imgDefault": "mens-classic-tee-natural-front-64f0a9d6e7333.png",
+        "imgHover": "mens-classic-tee-natural-front-64f0a9d6e6e2a.png",
+        "description": "High-quality oversized tee made from organic cotton."
+    },
+     {
+        "id": 5,
+       "title": "White Essential Cotton Oversized tee",
+        "discount": "-30%",
+        "price": 1189,
+        "originalPrice": 1699,
+        "rating": 4,
+        "imgDefault":"mens-classic-tee-white-front-64c3dc28f3283.png",
+        "imgHover": "mens-classic-tee-white-back-64c3dc28f34d5.png",
+        "description": "High-quality oversized tee made from organic cotton."
+    },
+     {
+        "id": 6,
+        "title": "Black Essential Cotton Oversized tee",
+        "discount": "-30%",
+        "price": 999,
+        "originalPrice": 1399,
+        "rating": 4.5,
+        "imgDefault": "black-plain-oversized-removebg-preview.png",
+        "imgHover": "mockup (2).png",
+        "description": "High-quality oversized tee made from organic cotton."
+    }   
+
+]

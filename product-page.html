@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style-product.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body class="">
+    <div class="header">
+        <div class="container">
+          <div class="navbar ">
+            <div class="logo">
+                <img src="1-removebg-preview.png" alt="logo" width="150px">
+            </div>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Allproducts.html">Products</a></li>  
+                <li><a href="blog.html">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="loginpg.html">Account</a></li>
+            </ul>
+            </nav>
+            <div class="cart-icon">
+               <a href="#" class="cart-img"><img src="cart.png" alt="cart" width="25px" height="25px"></a>
+               <div class="totalquantity"></div>
+            </div>
+          </div> 
+        </div>    
+    </div>    
+
+    <hr class="sec-divider">
+
+    <div class="big-container">
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-3 product-details">
+                        <p id="breadcrumb"></p>
+                        <h1 id="product-title"></h1>
+                        <h4 id="product-price">1189</h4>
+                        <h3>Product Details <i class="fa fa-quote-left"></i></h3>
+                        <p id="product-description">Loading description...</p>
+                </div>
+
+                 <div class="col-3 product-img">
+                    <img src="" width="100%" id="ProductImg">
+                 </div>
+
+    
+                    <!-- <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="RedStore_Img/images/gallery-1.jpg" alt="" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img/images/gallery-2.jpg" alt="" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img/images/gallery-3.jpg" alt="" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img/images/gallery-4.jpg" alt="" width="100%" class="small-img">
+                        </div>
+                    </div> -->
+               
+                
+                <div class="col-3 product-info">
+                    <div class="sizes" id="size-options">
+                        <button class="size-btn" onclick="selectSize(this)">S</button>
+                        <button class="size-btn" onclick="selectSize(this)">M</button>
+                        <button class="size-btn" onclick="selectSize(this)">L</button>
+                        <button class="size-btn" onclick="selectSize(this)">XL</button>
+                        <button class="size-btn" onclick="selectSize(this)">XXL</button>
+                    </div>
+                    <input type="number" id="quantity" value="1" min="1">
+                    <a href="" class="btn" id="add-to-cart-btn">Add to cart</a>
+                </div>       
+            </div>
+        </div> 
+    </div>   
+    
+     <!-- title -->
+     <div class="small-container">
+        <div class="row row-2">
+               <h2>Related Products</h2>
+               <p>View more</p>
+        </div>
+     </div>
+
+
+     <!-- products -->
+    <div class="small-container"> 
+        <div class="row product-grid">
+        <div class="col-4 product-card">
+            <div class="image-wrapper shine">
+                <img src="mens-classic-tee-black-back-64f0cfbe90c80.png" alt="" class="img-default">
+                <img src="mens-classic-tee-black-back-64f0cfbe919a6.png" alt="" class="img-hover">
+            </div>
+                         
+            <div class="product-discount">-30%</div>
+            <div class="product-title">Black Essential Cotton Oversized tee</div>
+            
+            <div class="rating">
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>
+                <span class = "fa fa-star-o checked"></span>  
+            </div>
+            <div class="product-price">₹1,189 <del>₹1,699</del></div>
+        </div>
+        <div class="col-4 product-card">
+            <div class="image-wrapper shine">
+                <img src="mens-classic-tee-black-front-64f0ccbf8a0c7.png" alt="" class="img-default">
+                <img src="mens-classic-tee-black-front-2-64f0ccbf8a8ed.png" alt="" class="img-hover">
+            </div>
+            <div class="product-discount">-30%</div>
+            <div class="product-title">Black Essential Cotton Oversized tee</div>
+            
+            <div class="rating">
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>
+                <span class = "fa fa-star-o checked"></span>  
+            </div>
+            <div class="product-price">₹1,189 <del>₹1,699</del></div>
+        </div>
+        <div class="col-4 product-card">
+            <div class="image-wrapper shine"> 
+                <img src="mens-classic-tee-black-front-64f0ebb6137fb.png" alt="" class="img-default">
+                <img src="mens-classic-tee-black-front-2-64f0ebb614237.png" alt="" class="img-hover">
+            </div>
+            <div class="product-discount">-30%</div>
+            <div class="product-title">Black Essential Cotton Oversized tee</div>
+            
+            <div class="rating">
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>
+                <span class = "fa fa-star-o checked"></span>  
+            </div>
+            <div class="product-price">₹1,189 <del>₹1,699</del></div>
+        </div>
+        <div class="col-4 product-card">
+            <div class="image-wrapper shine">
+                <img src="mens-classic-tee-natural-front-64f0a9d6e7333.png" alt="" class="img-default">
+                <img src="mens-classic-tee-natural-front-64f0a9d6e6e2a.png" alt="" class="img-hover">
+            </div>
+            <div class="product-discount">-30%</div>
+            <div class="product-title">Black Essential Cotton Oversized tee</div>
+            
+            <div class="rating">
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>  
+                <span class = "fa fa-star checked"></span>
+                <span class = "fa fa-star-o checked"></span>  
+            </div>
+            <div class="product-price">₹1,189 <del>₹1,699</del></div>
+        </div>
+    </div>
+</div>
+
+<!-- carttab -->
+
+<div class="cartTab">
+    <h1>Shopping Cart</h1>
+        <div class="ListCart" id="cart-item">
+            <!--  -->
+        </div>
+    <div class="cart-button">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">CHECK OUT</button>
+    </div>
+</div>
+
+    <!--footer-->
+
+
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+         <div class="footer-col-1">
+             <h3>Download Our App</h3>
+             <p>Download the App for Android and IOS users</p>
+             <div class="app-logo">
+                <img src="play-store.png" alt="">
+                <img src="app-store.png" alt="">
+             </div>
+         </div>           
+            <div class="footer-col-2">
+            <img src="1-removebg-preview.png" alt="">
+            <p>Glide your confidence, Outstand the crowd!</p>
+           </div>  
+           <div class="footer-col-3">
+            <h3>Other links</h3> 
+             <ul class="footer-links">
+                <a href="main.html"><li>Home</li></a>
+                <a href="blog.html"><li>Blogs</li></a>
+                <a href="privacy-policy.html"><li>Privacy Policy</li></a>
+                <a href="refund-policy.html"><li>Refund Policy</li></a>
+                <a href="terms.html"><li>Terms and Conditions</li></a>
+             </ul>
+           </div>
+           <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul class="footer-links">
+                <a href=""><li>Instagram</li></a>
+                <a href=""><li>Facebook</li></a>
+                <a href=""><li>Twitter</li></a>
+                <a href=""><li>Threads</li></a>
+             </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy; 2025 Teeless. All rights reserved.</p>
+    </div>
+</div>
+
+    <script src="cartPage.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #2C3930;
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 70px 40px;
+    scroll-behavior: smooth;
+}
+
+.card-list .card-item {
+    background-color: #DCD7C9;
+    user-select: none;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    padding: 25px;
+    width: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.card-list .card-item .user-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    padding: 2px;
+    margin-bottom: 30px;
+} 
+
+.card-list .card-item .user-program{
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 5px 0 20px;
+
+}
+
+
+.card-list .card-item .user-handles{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.card-list .card-item .social-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icons a{
+    display: inline-flex;
+    padding: 15px;
+    /* border: 1px solid black;
+    border-radius: 50%; */
+    font-size: 20px;
+    color: #2C3930 ;
+    margin: 0 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    color: white;
+    transform: scaleZ(-5);
+    background: black;
+}
+
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: #2C3930;
+    height: 15px;
+    width: 15px;
+
+}
+
+.slider-wrapper .swiper-slide-button{
+    color: #2C3930;
+    /* background: #DCD7C9; */
+    margin-top: -70px;
+    border-radius: 50%;
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    transition: .2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover{
+    color: #DCD7C9;
+    background: #2C3930;
+    border-radius: 50%;
+    padding: 40px; 
+}
+
+@media (max-width: 768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+}
+
